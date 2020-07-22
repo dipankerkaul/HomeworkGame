@@ -11,10 +11,10 @@ public class MenuScreen extends BaseScreen
     public void initialize()
     {
         BaseActor background = new BaseActor(0,0, mainStage);
-        background.loadTexture( "assets/notebook.jpg" );
+        background.loadTexture( "notebook.jpg" );
         background.setSize(800,600);
         BaseActor title = new BaseActor(0,0, mainStage);
-        title.loadTexture( "assets/missing-homework.png" );
+        title.loadTexture( "missing-homework.png" );
         TextButton startButton = new TextButton( "Start", BaseGame.textButtonStyle );
 
         startButton.addListener(

@@ -1,5 +1,6 @@
-package HomeworkGame;
+package HomeworkGame.desktop;
 
+import HomeworkGame.HomeworkGame;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 public class Launcher
 {

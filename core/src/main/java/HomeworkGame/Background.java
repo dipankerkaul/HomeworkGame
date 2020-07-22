@@ -11,10 +11,10 @@ public class Background extends BaseActor
     public Background(float x, float y, Stage s)
     {
         super(x,y,s);
-        hallway = loadTexture("assets/bg-hallway.jpg");
-        classroom = loadTexture("assets/bg-classroom.jpg");
-        scienceLab = loadTexture("assets/bg-science-lab.jpg");
-        library = loadTexture("assets/bg-library.jpg");
+        hallway = loadTexture("bg-hallway.jpg");
+        classroom = loadTexture("bg-classroom.jpg");
+        scienceLab = loadTexture("bg-science-lab.jpg");
+        library = loadTexture("bg-library.jpg");
         setSize(800,600);
     }
 }
